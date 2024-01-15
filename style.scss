@@ -1,0 +1,25 @@
+$b-width: 100px;
+
+@mixin shape($width, $height) {
+  width: $width;
+  height: $height;
+}
+@for $i from 1 through 6{
+    .item-#{$i}{
+        $is-odd : $i % 2 ==1;
+        $shape-width : $i * $b-width;
+
+        @if $is-odd {
+            @include shape($shape-width , $b-width);
+            border-radius: 0;
+        }
+        @else{
+            @include shape($b-width , $b-width);
+            border-radius: 50%;
+        }
+
+        background-color: #ADD8E6;
+        border: 1px solid rgb(3, 152, 3);
+        
+    }
+}

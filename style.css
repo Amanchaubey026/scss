@@ -1,0 +1,48 @@
+.item-1 {
+  width: 100px;
+  height: 100px;
+  border-radius: 0;
+  background-color: #ADD8E6;
+  border: 1px solid rgb(3, 152, 3);
+}
+
+.item-2 {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: #ADD8E6;
+  border: 1px solid rgb(3, 152, 3);
+}
+
+.item-3 {
+  width: 300px;
+  height: 100px;
+  border-radius: 0;
+  background-color: #ADD8E6;
+  border: 1px solid rgb(3, 152, 3);
+}
+
+.item-4 {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: #ADD8E6;
+  border: 1px solid rgb(3, 152, 3);
+}
+
+.item-5 {
+  width: 500px;
+  height: 100px;
+  border-radius: 0;
+  background-color: #ADD8E6;
+  border: 1px solid rgb(3, 152, 3);
+}
+
+.item-6 {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: #ADD8E6;
+  border: 1px solid rgb(3, 152, 3);
+}
+/*# sourceMappingURL=style.css.map */
